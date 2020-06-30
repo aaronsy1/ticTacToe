@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>Tic Tac Toe</h2>
+
+    <button
+    class="btn btn-primary"
+    >
+        Start Game
+    </button>
+
+    <hr>
+
+    <main>
+        <app-game-button
+        *ngFor = "let value of squares"
+        > 
+        </app-game-button>
+
+    </main>
+</div>

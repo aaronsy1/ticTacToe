@@ -1,0 +1,6 @@
+main {
+    display: grid;
+grid-template-columns: repeat(3,33vh);
+height: 60vh;
+width: 100%;
+}
